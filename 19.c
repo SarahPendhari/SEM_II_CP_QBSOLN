@@ -35,7 +35,7 @@ void main()
     printf("Enter order of A Matrix m,n: ");
     scanf("%d %d",&m,&n);
     printf("Enter the elements of matrix A:\n");
-    for(i=0;i<n;i++)
+    for(i=0;i<m;i++)
         for(j=0;j<n;j++)
     {
         scanf("%d",&a[i][j]);
